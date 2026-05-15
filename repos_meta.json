@@ -1,0 +1,11 @@
+{
+  "micrograd": {
+    "url": "https://github.com/karpathy/micrograd",
+    "name": "micrograd",
+    "owner": "karpathy",
+    "files": 6,
+    "chunks": 8,
+    "indexed_at": "2026-05-13T13:49:11.569933+00:00",
+    "lang": "Python"
+  }
+}
