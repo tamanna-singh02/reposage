@@ -602,4 +602,5 @@ async def get_shared_session(session_id: str):
 
 
 # Serve frontend — must be last so API routes take priority
-app.mount("/", StaticFiles(directory=str(PROJECT_ROOT / "static"), html=True), name="static")
+_STATIC_DIR = PROJECT_ROOT / "static"
+app.mount("/", StaticFiles(directory=str(_STATIC_DIR), html=True), name="static")
