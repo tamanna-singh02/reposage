@@ -17,6 +17,7 @@ __pycache__/
 # Databases
 *.db
 reposage.db
+chroma_db/
 
 # OS generated files
 .DS_Store
