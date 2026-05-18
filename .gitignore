@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.local
+
+# Databases
+*.db
+reposage.db
+
+# OS generated files
+.DS_Store
